@@ -1,15 +1,27 @@
 
-import Login from './Components/Login';
 import Navbar from './Components/Navbar';
-
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './Components/pages/Home';
+import About from './Components/pages/About';
+import Contact from './Components/pages/Contact';
+import Leaderboard from './Components/pages/Leaderboard';
+import './styles/app.css'
 function App() {
   return (
-    <div className="outer-container">
+    <>
+      <Router>
       <Navbar/>
-      <Login/>
-
-
-    </div>
+      <div className='pages'>
+      <Routes>
+      <Route exact path='/' element ={<Home/>}/>
+      <Route path='/about' element ={<About/>}/>
+      <Route path='/contact' element ={<Contact/>}/>
+      <Route path='/leaderboard' element ={<Leaderboard/>}/>
+      </Routes>
+      </div>
+      </Router>
+      
+      </>
   );
 };
 

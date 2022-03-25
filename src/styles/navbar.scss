@@ -1,14 +1,38 @@
 .navbar {
     background-color: rgb(52, 186, 190);
-    display: flex;
-    justify-content:space-between;
+    display: flexbox;
+    justify-content:center;
+    position: sticky;
     
 
-    a{
-        color:white;
-    }
-    
-    a:hover{
-        color: yellow;
-    }
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo{
+    color:yellow;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 2rem;
+    flex-grow: 1;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.nav-links{
+    color:white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    line-height: 40px;
+
 }
