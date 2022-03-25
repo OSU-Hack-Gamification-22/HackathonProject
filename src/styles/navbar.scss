@@ -1,0 +1,14 @@
+.navbar {
+    background-color: rgb(52, 186, 190);
+    display: flex;
+    justify-content:space-between;
+    
+
+    a{
+        color:white;
+    }
+    
+    a:hover{
+        color: yellow;
+    }
+}
