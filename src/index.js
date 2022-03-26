@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import AddItem from './addRestaurant'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AddItem />
   </React.StrictMode>,
   document.getElementById('root')
 );

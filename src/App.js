@@ -7,8 +7,6 @@ function App() {
     <div className="outer-container">
       <Navbar/>
       <Login/>
-
-
     </div>
   );
 };
