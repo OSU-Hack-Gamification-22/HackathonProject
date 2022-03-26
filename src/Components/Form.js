@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import SearchBar from './Searchbar';
 let search = 'Lookup a restaurant..';
-let count = 0;
 // API INSTRUCTIONS
 // Limited number of request... Find better api.
 // If using, update data in search bar file to match get request

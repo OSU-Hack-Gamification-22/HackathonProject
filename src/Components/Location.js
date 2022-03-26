@@ -1,11 +1,8 @@
-
-import Navbar from './Components/Navbar';
-import Form from './Components/Form';
 import React from 'react';
 import Geolocation from 'react-native-geolocation-service';
 import axios from "axios";
 
-class AddItem extends React.Component {
+class GetLocation extends React.Component {
   constructor(props){
     super(props);
     this.location = {
@@ -52,15 +49,5 @@ class AddItem extends React.Component {
           { enableHighAccuracy: true, timeout: 15000, maximumAge: 10000 }
       );
     }
-
-  render(){
-    return(
-    <div className="outer-container">
-      <Navbar/>
-      <h1 id='AddTitle'>Add a restaurant...</h1>
-      <Form/>
-    </div>
-    )
-  }
 }
- export default AddItem
+ export default GetLocation
