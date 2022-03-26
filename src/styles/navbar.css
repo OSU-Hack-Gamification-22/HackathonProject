@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #34babe;
+  background-color: #FF8514;
   display: flexbox;
   justify-content: center;
   position: -webkit-sticky;
@@ -13,7 +13,7 @@
 }
 
 .nav-logo {
-  color: yellow;
+  color: rgb(253, 253, 250);
   align-items: center;
   margin-left: 20px;
   font-size: 2rem;
