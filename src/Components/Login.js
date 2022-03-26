@@ -5,7 +5,7 @@ import {
   onAuthStateChanged,
   signOut,
 } from "firebase/auth";
-// import "./App.css";
+import "./App.css";
 import { auth } from "./firebase-config";
 
 function Login() {
