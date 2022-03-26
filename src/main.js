@@ -32,7 +32,7 @@ class Main extends React.Component {
               headers: {
                 'X-RapidAPI-Host': 'trueway-geocoding.p.rapidapi.com',
                 // put in .env and call
-                'X-RapidAPI-Key': '9e50179b74mshfc91874f9e89f1dp15b1b2jsn438149918a3b'
+                'X-RapidAPI-Key': `${process.env.REACT_APP_rapidAPI_Key}`
               }
             };
             // make api call
@@ -42,6 +42,7 @@ class Main extends React.Component {
               this.city = res.data.results[0].locality;
               this.state = res.data.results[0].region;
               // Test
+              console.log(process.env);
               alert(`Your location is ${this.city}, ${this.state}`);
               });
           },

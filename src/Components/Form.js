@@ -11,7 +11,7 @@ let search = 'Lookup a restaurant..';
 //   url: 'https://restaurants-near-me-usa.p.rapidapi.com/restaurants/location/state/IL/city/Chicago/0',
 //   headers: {
 //     'X-RapidAPI-Host': 'restaurants-near-me-usa.p.rapidapi.com',
-//     'X-RapidAPI-Key': '9e50179b74mshfc91874f9e89f1dp15b1b2jsn438149918a3b'
+//     'X-RapidAPI-Key': ''
 //   }
 // };
 
@@ -42,7 +42,8 @@ const Form = () => {
   // Run get call on load
   useEffect(() =>{
     getRestraurants();
-  });
+    console.log('This');
+  }, []);
 
   return (
 <>
