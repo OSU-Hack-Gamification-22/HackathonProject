@@ -1,18 +1,36 @@
 .navbar {
   background-color: #34babe;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  display: flexbox;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.nav-container {
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
-.navbar a {
-  color: white;
-}
-
-.navbar a:hover {
+.nav-logo {
   color: yellow;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 2rem;
+  flex-grow: 1;
+  text-decoration: none;
 }
-/*# sourceMappingURL=navbar.css.map */
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  line-height: 40px;
+}/*# sourceMappingURL=navbar.css.map */
