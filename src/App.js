@@ -5,9 +5,12 @@ import Home from './Components/pages/Home';
 import About from './Components/pages/About';
 import Contact from './Components/pages/Contact';
 import Leaderboard from './Components/pages/Leaderboard';
-import Login from './Login'
 
+import Login from './Login'
 // import './styles/app.css'
+import './styles/app.css'
+
+
 function App() {
   return (
     <>
