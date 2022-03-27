@@ -11,6 +11,7 @@ import Main from './main';
 
 // import './styles/app.css'
 import './styles/app.css'
+import GoogleLogin from './GoogleLogin';
 
 
 function App() {
@@ -20,9 +21,9 @@ function App() {
 <Main />
       {/* <Router>
       <Navbar/>
+      {/* <Login /> */}
+      <GoogleLogin />
       <Login />
-      
-      
       <div className='pages'>
       <Routes>
       <Route exact path='/' element ={<Home/>}/>
@@ -37,6 +38,7 @@ function App() {
   );
 };
 
+export default App;
 export default App;
 
 
