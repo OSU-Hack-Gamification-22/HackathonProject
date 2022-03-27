@@ -1,25 +1,35 @@
+
+
+
+
 .navbar {
     background-color: rgb(52, 186, 190);
     display: flexbox;
     justify-content:center;
     position: sticky;
+    top:0;
+    border-radius: 10px;
+    
+    
     
 
 }
 
 .nav-container{
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+      
 }
 
 .nav-logo{
+    display: flex;
+    margin-left: 1rem;
     color:yellow;
-    align-items: center;
-    margin-left: 20px;
-    font-size: 2rem;
     flex-grow: 1;
+    font-size: 2rem;
     text-decoration: none;
+
 }
 
 .nav-menu{

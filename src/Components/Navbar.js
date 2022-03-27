@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/navbar.css';
 import {NavLink} from 'react-router-dom'
+import {MdOutlineFastfood} from "react-icons/md"
 function Navbar() {
     
   return (
@@ -8,7 +9,7 @@ function Navbar() {
     <nav className='navbar'>
     <div className='nav-container'>
         <NavLink exact to ='/' className='nav-logo'>
-          Foodie
+          Foodie<MdOutlineFastfood/>
           </NavLink>
       <ul className='nav-menu'>
         <li className='nav-item'>

@@ -1,16 +1,21 @@
 
-import Navbar from './Components/Navbar';
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './Components/pages/Home';
-import About from './Components/pages/About';
-import Contact from './Components/pages/Contact';
-import Leaderboard from './Components/pages/Leaderboard';
+
+
+
 import './styles/app.css'
+import Main from './main';
+
+
 function App() {
   return (
     <>
-      <Router>
+
+    <Main />
+      {/* <Router>
       <Navbar/>
+      <Login />
+      
+      <GoogleLogin />
       <div className='pages'>
       <Routes>
       <Route exact path='/' element ={<Home/>}/>
@@ -20,7 +25,7 @@ function App() {
       </Routes>
       </div>
       </Router>
-      
+       */}
       </>
   );
 };

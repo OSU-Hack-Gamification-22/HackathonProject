@@ -1,0 +1,21 @@
+button {
+  background-color: #34babe;
+  padding: 3px;
+  margin-top: 0.5rem;
+}
+
+.App {
+  filter: drop-shadow(1px 4px 8px #20c2df);
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  color: white;
+  background-color: #030303;
+  border-radius: 15px;
+  margin-top: 2rem;
+}
+.App input {
+  border-radius: 5px;
+  background-color: #f3f3b3;
+}/*# sourceMappingURL=login.css.map */

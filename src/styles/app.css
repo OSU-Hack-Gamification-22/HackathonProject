@@ -4,11 +4,12 @@
 }
 
 body {
-  background-color: rgba(250, 246, 246, 0.89);
+  background-color: rgb(17, 17, 17);
 }
 
+
 .pages {
-  color: #050505;
+  color: white;
   text-align: center;
   font-size: 3.5rem;
   margin-top: 5%;

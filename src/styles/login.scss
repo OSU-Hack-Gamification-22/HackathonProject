@@ -1,0 +1,25 @@
+button{
+    background-color: #34babe;
+    padding:3px;
+    margin-top: .5rem;
+}
+
+
+.App {
+    filter: drop-shadow(1px 4px 8px #20c2df); 
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: .5rem .5rem;
+    color:white;
+    background-color: rgb(3, 3, 3);
+    border-radius: 15px;
+    margin-top: 2rem;
+
+    input{
+        border-radius: 5px;
+        background-color: rgb(243, 243, 179);
+        
+        
+    }
+}
