@@ -18,6 +18,7 @@ function App() {
       <Router>
       <Navbar/>
       <Login />
+      
       <GoogleLogin />
       <div className='pages'>
       <Routes>
