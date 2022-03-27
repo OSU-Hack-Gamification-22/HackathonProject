@@ -1,23 +1,19 @@
 
-import Navbar from './Components/Navbar';
-import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './Components/pages/Home';
-import About from './Components/pages/About';
-import Contact from './Components/pages/Contact';
-import Leaderboard from './Components/pages/Leaderboard';
 
-import Login from './Login'
-// import './styles/app.css'
+
+
 import './styles/app.css'
-import GoogleLogin from './GoogleLogin';
+import Main from './main';
 
 
 function App() {
   return (
     <>
-      <Router>
+
+    <Main />
+      {/* <Router>
       <Navbar/>
-      {/* <Login /> */}
+      <Login />
       <GoogleLogin />
       <div className='pages'>
       <Routes>
@@ -28,7 +24,7 @@ function App() {
       </Routes>
       </div>
       </Router>
-      
+       */}
       </>
   );
 };

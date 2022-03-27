@@ -6,7 +6,7 @@ import Contact from './Components/pages/Contact';
 import Leaderboard from './Components/pages/Leaderboard';
 // import Form from './Components/Form'
 import Login from './Login'
-
+import GoogleLogin from './GoogleLogin';
 
 
 
@@ -76,6 +76,7 @@ class Main extends React.Component {
 
      <Router>
       <Navbar/>
+      <GoogleLogin />
       <h1 id='AddTitle'>Add a restaurant...</h1>
       <Form/>
       <Login />
