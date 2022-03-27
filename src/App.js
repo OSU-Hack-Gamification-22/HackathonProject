@@ -9,6 +9,7 @@ import Leaderboard from './Components/pages/Leaderboard';
 import Login from './Login'
 // import './styles/app.css'
 import './styles/app.css'
+import GoogleLogin from './GoogleLogin';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     <>
       <Router>
       <Navbar/>
-      <Login />
+      {/* <Login /> */}
+      <GoogleLogin />
       <div className='pages'>
       <Routes>
       <Route exact path='/' element ={<Home/>}/>
