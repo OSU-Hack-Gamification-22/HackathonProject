@@ -1,3 +1,4 @@
+import './styles/login.css'
 import { useState } from "react";
 import {
   createUserWithEmailAndPassword,
