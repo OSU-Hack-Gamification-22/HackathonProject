@@ -1,7 +1,5 @@
-import '../styles/searchBar.css';
+// import '../styles/searchBar.css';
 import React, { useState, } from 'react';
-
-
 
 const SearchBar = ({placeholder, data}) => {
 
