@@ -1,4 +1,4 @@
-
+import '../styles/form.css'
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import SearchBar from './Searchbar';
@@ -47,7 +47,7 @@ const Form = () => {
 
   return (
 <>
-<fieldset>
+
 <form id="addRestaurant" action="" method="POST">
   Date Visited:
   <input id='visit_date' type='date' name='TBD' required></input>
@@ -55,9 +55,9 @@ const Form = () => {
   <input id='visit_rating' name='TBD' type='number' min='1' max='10' required></input>
   <p>Data in this will be replaced with restaurant api data</p>
   <SearchBar placeholder={search} data={restaurantData}/>
-  <input type="submit" value="Submit"></input>   
+  <input type="submit" value="Submit" className='submit-button'></input>   
 </form>
-</fieldset>
+
 </>
   )
 }
