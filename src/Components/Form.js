@@ -3,17 +3,6 @@ import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import SearchBar from './Searchbar';
 let search = 'Lookup a restaurant..';
-// API INSTRUCTIONS
-// Limited number of request... Find better api.
-// If using, update data in search bar file to match get request
-// var options = {
-//   method: 'GET',
-//   url: 'https://restaurants-near-me-usa.p.rapidapi.com/restaurants/location/state/IL/city/Chicago/0',
-//   headers: {
-//     'X-RapidAPI-Host': 'restaurants-near-me-usa.p.rapidapi.com',
-//     'X-RapidAPI-Key': ''
-//   }
-// };
 
 // sample data to use to make sure search function is working.
 var options = {
